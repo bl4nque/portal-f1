@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAL FORMULA 1</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+        article:hover {
+            border: 5px solid white;
+            border-radius: 10px;
+        }
+
+        ul {
+            padding: 5px 5px ;
+        }
+
+        a:hover {
+            border: 5px solid white;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>   
+    <header style="background-color:#E10600;">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <img class="d-block w-20" style="height: 100px;" src="https://as2.ftcdn.net/v2/jpg/02/12/87/95/1000_F_212879543_suVXunCpY8AvZ9QAIpmfCiUTH9J63fEm.jpg"/>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav  class="collapse navbar-collapse justify-content-end" id="menu" >
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: aliceblue; font-weight: bolder; font-size: 33px;" href="#">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: aliceblue; font-weight: bolder; font-size: 33px;" href="#">Temporadas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: aliceblue; font-weight: bolder; font-size: 33px;" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div>
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 col-xs-12">
+                <div id="carou" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="3500" class="carousel-item active">
+                            <img class="d-block w-100 carousel-img" style="height: 350px" src="./images/carro1.jpg"/>
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                        <div data-bs-interval="3500" class="carousel-item">
+                            <img class="d-block w-100 carousel-img" style="height: 350px" src="./images/carro2.jpg"/>
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                        <div data-bs-interval="3500" class="carousel-item">
+                            <img class="d-block w-100 carousel-img" style="height: 350px" src="./images/carro3.jpg"/>
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                    </div>
+                    <button data-bs-target="#carou" class="carousel-control-prev" data-bs-slide="prev" type="">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carou" class="carousel-control-next" data-bs-slide="next" type="">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carou" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carou" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carou" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="col-12" style="background-color: #E10600; margin-top: 12px;">
+            <div class="container">
+                <h1 style="color: aliceblue;">NOTICIAS</h1>
+            </div>
+        </div>
+        <div style="background: linear-gradient(#E10600,#000); margin-top: 12px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4" style="margin-top: 15px;" style="margin-bottom: 15px;">
+                        <article class="card text-bg-dark">
+                            <header class="card-header">
+                                <h2>Dança das cadeiras</h2>
+                            </header>
+                            <img src="https://www.autoracing.com.br/wp-content/uploads/2023/06/F1-hamilton-espanha-2023-podio.jpg"/>
+                            <div class="card-body">
+                                <h4 class="card-title">Mercedes de mudança</h4>
+                                <p class="card-text">
+                                    Rumores indicam que hamilton pode estar de saida
+                                </p>
+                                <a href="" class="btn btn-danger">Leia mais</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4" style="margin-top: 15px;" style="margin-bottom: 15px;">
+                        <article class="card text-bg-dark">
+                            <header class="card-header">
+                                <h2>Conserto salgado</h2>
+                            </header>
+                            <img src="https://s2-ge.glbimg.com/SlIJJl2OSPfmbLDJwu6bzOiDySM=/0x0:8032x5357/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/B/8/1K6ok4T8GxIeMD1d2EbA/2022-05-29t145245z-1458754025-up1ei5t15bun4-rtrmadp-3-motor-f1-monaco.jpg"/>
+                            <div class="card-body">
+                                <h4 class="card-title">Prejuizo</h4>
+                                <p class="card-text">
+                                    Reparos do ultimo acidente passaram de $750.000,00
+                                </p>
+                                <a href="" class="btn btn-danger">Leia mais</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4" style="margin-top: 15px;" style="margin-bottom: 15px;">
+                        <article class="card text-bg-dark">
+                            <header class="card-header">
+                                <h2>Cancelamento</h2>
+                            </header>
+                            <img src="https://www.formula1.com/content/dam/fom-website/manual/Misc/GettyImages-1229626107.jpg.transform/9col/image.jpg?w=144"/>
+                            <div class="card-body">
+                                <h4 class="card-title">GP da arabia saudita cancelado</h4>
+                                <p class="card-text">
+                                    Após não chegarem a um acordo, FIA decide cancelar o GP da arabia saudita
+                                </p>
+                                <a href="" class="btn btn-danger">Leia mais</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
